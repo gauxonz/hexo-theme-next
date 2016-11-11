@@ -75,7 +75,7 @@
 
   
   <!-- background -->
-  <script src="/js/src/particles.min.js"></script>
-  <script>particlesJS.load('particles-js', '/js/src/particles.json');</script>
+  <script src="/lib/particals/particles.min.js"></script>
+  <script>particlesJS.load('particles-js', '/lib/particals/particles.json');</script>
 </body>
 </html>
