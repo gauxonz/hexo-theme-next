@@ -10,7 +10,6 @@
   {% include '_partials/head.swig' %}
   <title>{% block title %}{% endblock %}</title>
 </head>
-
 <body itemscope itemtype="//schema.org/WebPage" lang="{{ config.language }}">
 
   {% include '_scripts/third-party/analytics.swig' %}
@@ -28,6 +27,7 @@
     </header>
 
     <main id="main" class="main">
+    <div id="particles-js"></div>
       <div class="main-inner">
         <div class="content-wrap">
           <div id="content" class="content">
@@ -71,6 +71,10 @@
   {% include '_scripts/third-party/mathjax.swig' %}
   {% include '_scripts/third-party/lean-analytics.swig' %}
   {% include '_scripts/baidu-push.swig' %}
+  
+  <!-- background -->
+  <script src="/js/src/particles.min.js"></script>
+  <script>particlesJS.load('particles-js', '/js/src/particles.json');</script>
 
 </body>
 </html>
