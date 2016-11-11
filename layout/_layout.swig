@@ -71,10 +71,11 @@
   {% include '_scripts/third-party/mathjax.swig' %}
   {% include '_scripts/third-party/lean-analytics.swig' %}
   {% include '_scripts/baidu-push.swig' %}
+  {% include '_scripts/third-party/schedule.swig' %}
+
   
   <!-- background -->
   <script src="/js/src/particles.min.js"></script>
   <script>particlesJS.load('particles-js', '/js/src/particles.json');</script>
-
 </body>
 </html>
